@@ -59,7 +59,7 @@ export default class Game extends React.Component {
     document.title = feedback ? `${feedback} | Hot or Cold` : 'Hot or Cold';
   }
 
-  generateAuralUpdate() {
+  generateAuralUpdate() { 
     const { guesses, feedback } = this.state;
 
     // If there's not exactly 1 guess, we want to
