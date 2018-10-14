@@ -15,3 +15,8 @@ export const setAuralStatus = auralStatus => ({
   type: SET_AURAL_STATUS,
   auralStatus
 });
+
+export const RESTART_GAME = "RESTART_GAME";
+export const restartGame = () => ({
+  type: RESTART_GAME,
+});
